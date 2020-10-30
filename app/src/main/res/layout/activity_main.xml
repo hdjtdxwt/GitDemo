@@ -31,4 +31,10 @@
         android:layout_marginTop="5dp"
         android:text="测试4"  />
 
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="测试5,新加的一个commit"  />
 </LinearLayout>
