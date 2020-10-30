@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btn2;
     Button btn3;
     TextView textView;
+    Button btn4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,8 +21,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn1 = findViewById(R.id.btn1);
         btn2 = findViewById(R.id.btn2);
         btn3 = findViewById(R.id.btn3);
+        btn4 = findViewById(R.id.btn4);
         btn2.setOnClickListener(this);
         btn3.setOnClickListener(this);
+        btn4.setOnClickListener(this);
         textView = findViewById(R.id.text);
         textView.setOnClickListener(this);
     }
@@ -38,7 +41,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.text:{
                 Toast.makeText(this, "要删除的文本textView", Toast.LENGTH_SHORT).show();
             }break;
-
+            case R.id.btn4:{
+                Toast.makeText(this, "新加的btn4按钮", Toast.LENGTH_SHORT).show();
+            }
         }
     }
 }

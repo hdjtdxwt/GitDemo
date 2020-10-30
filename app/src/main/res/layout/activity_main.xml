@@ -28,4 +28,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="textView，待会要删除的"  />
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="测试4"  />
 </LinearLayout>
